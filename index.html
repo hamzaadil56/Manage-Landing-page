@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <section class="background-svg section1">
+        <nav>
+          <div class="nav-header ">
+            <div class="logo-container">
+              <img src="./images/logo.svg" class="logo" />
+            </div>
+            <div id="nav-links-container" class="nav-links-container show-links">
+              <ul class="nav-links">
+                <li><a href="">Product</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Community</a></li>
+              </ul>
+            </div>
+            <div><button class="get-started-btn">Get Started</button></div>
+          </div>
+
+          <div class="hamburger-icon">
+            <button onclick="showLinks()" id="hamburger-btn" class="hamburger"><i class="fas fa-bars"></i></button>
+          </div>
+        </nav>
+        <section class="container">
+          <div class="main-section">
+            <div class="hero-container"><article class="hero-heading">
+              <h1>Bring everyone together to build better products.</h1>
+              <div class="para">
+                <p>
+                  Manage makes it simple for software teams to plan day-to-day
+                  tasks while keeping the larger team goals in view
+                </p>
+              </div>
+              <div>
+                <button class="get-started-btn">Get Started</button>
+              </div>
+            </article>
+            <article class="hero-images">
+              <img
+                src="./images/illustration-intro.svg"
+                alt=""
+                style="width: 100%"
+              />
+            </article>
+          </div>
+            <article id="about" class="about">
+              <h2>What's different about Manage?</h2>
+              <div class="para">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugiat ipsam voluptate veniam nihil! Libero ex placeat
+                  expedita sequi veniam optio.
+                </p>
+              </div>
+            </article>
+            <article class="about-list">
+              <div class="list-container">
+                <button class="badge">01</button>
+                <div>
+                  <h4>Track company-wide progress</h4>
+                  <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, blanditiis excepturi veritatis ea autem voluptates?</p>
+                </div>
+              </div>
+              <div class="list-container">
+                <button class="badge">02</button>
+                <div>
+                  <h4>Advanced built-in reports</h4>
+                  <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, blanditiis excepturi veritatis ea autem voluptates?</p>
+                </div>
+              </div>
+              <div class="list-container">
+                <button class="badge">03</button>
+                <div>
+                  <h4>Everything you need in one place</h4>
+                  <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, blanditiis excepturi veritatis ea autem voluptates?</p>
+                </div>
+              </div>
+          </div>
+        </section>
+        <div class="reviews-container">
+          <h1>What they've said</h1>
+          <div class="swiper mySwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="reviewer swiper-slide">
+                <div class="box">
+                  <div class="avatar">
+                    <img src="./images/avatar-anisha.png" alt="" />
+                  </div>
+                  <div class="review">
+                    <h3>Anisha Li</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                      maiores possimus totam consequatur amet doloribus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="reviewer swiper-slide">
+                <div class="box">
+                  <div class="avatar">
+                    <img src="./images/avatar-ali.png" alt="" />
+                  </div>
+                  <div class="review">
+                    <h3>Ali Bravo</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                      maiores possimus totam consequatur amet doloribus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="reviewer swiper-slide">
+                <div class="box">
+                  <div class="avatar">
+                    <img src="./images/avatar-richard.png" alt="" />
+                  </div>
+                  <div class="review">
+                    <h3>Richard Watts</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                      maiores possimus totam consequatur amet doloribus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="reviewer swiper-slide">
+                <div class="box">
+                  <div class="avatar">
+                    <img src="./images/avatar-shanai.png" alt="" />
+                  </div>
+                  <div class="review">
+                    <h3>Shanai</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                      maiores possimus totam consequatur amet doloribus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+    
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+    
+       
+        
+      </section>
+      <section class="section2">
+        <div class="section2-header">
+          <h1>Simplify how your team works today.</h1>
+          <button class="get-started-btn">
+            Get Started
+          </button>
+        </div>
+      </section>
+      <footer>
+        <section class="section3">
+          <div class="column-container manage-container">
+          <div class="logo-container">
+            <img src="./images/logo-white.svg" class="logo" />
+          </div>
+          <div class="social-media-container">
+            <li><a href="https://www.facebook.com/">
+          <img src="./images/icon-facebook.svg" alt="">
+        </a></li>
+            <li><a href="https://www.youtube.com"><img src="./images/icon-youtube.svg" alt=""></a></li>
+            <li><a href="https://www.twitter.com"><img src="./images/icon-twitter.svg" alt=""></a></li>
+            <li><a href="https://www.pinterest.com"><img src="./images/icon-pinterest.svg" alt=""></a></li>
+            <li><a href="https://www.instagram.com"><img src="./images/icon-instagram.svg" alt=""></a></li>
+          </div>
+        </div>
+        <div class="column-container row-container">
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <div class="column-container row-container">
+          <ul class="footer-links">
+            <li><a href="#">Careers</a></li>
+            <li><a href="">Community</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div class="column-container">
+        <div class="column-container subscribe-form">
+          <form action="">
+            <input value="" id="email" type="email" placeholder="Updates in your inbox" >
+            <button id="submit" class="get-started-btn" type="submit">
+              Go
+            </button>
+            <p id="email-message"></p>
+          </form>
+          
+        </div>
+      </section>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
